@@ -1,5 +1,7 @@
 # ClipStack
 
+Only MacOS supported for now.
+
 ClipStack is a macOS 13+ menu bar clipboard manager built with SwiftUI + AppKit.
 
 It runs as an agent app with no Dock icon, watches the clipboard in the background, stores a persistent local history in SQLite, and exposes clips through a popover UI with search, filters, pinning, grouping, and paste-on-click support. Paste-on-click does not work for now.
